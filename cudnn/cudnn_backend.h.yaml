@@ -1,0 +1,383 @@
+---
+MainSourceFile:  '/home/u191761/convolution/dpct_output/cudnn/cudnn_backend.h'
+Replacements:
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_backend.h'
+    Offset:          2733
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_backend.h'
+    Offset:          23998
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_backend.h'
+    Offset:          24138
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_backend.h'
+    Offset:          24233
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_backend.h'
+    Offset:          24321
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_backend.h'
+    Offset:          24407
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_backend.h'
+    Offset:          24734
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_backend.h'
+    Offset:          25118
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_backend.h'
+    Offset:          25164
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/home/u191761/convolution/cudnn/cudnn_backend.h'
+    Digest:          5c43b379a77caf6042081650acadf900
+DpctVersion:     2023.1.0
+MainHelperFileName: dpct
+USMLevel:        ''
+FeatureMap:
+  device.hpp:
+    device_ext:
+      IsCalled:        false
+      FeatureName:     ''
+      SubFeatureMap:
+        device_ext_default_queue:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/u191761/convolution/main.cu'
+          FeatureName:     'device_ext::default_queue'
+          SubFeatureMap:   {}
+    get_current_device:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     get_current_device
+      SubFeatureMap:   {}
+    get_default_queue:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     get_default_queue
+      SubFeatureMap:   {}
+    typedef_event_ptr:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     typedef_event_ptr
+      SubFeatureMap:   {}
+    typedef_queue_ptr:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+      FeatureName:     queue_ptr
+      SubFeatureMap:   {}
+  dnnl_utils.hpp:
+    activation_desc:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     activation_desc
+      SubFeatureMap:   {}
+    batch_normalization_mode:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     batch_normalization_mode
+      SubFeatureMap:   {}
+    batch_normalization_ops:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     batch_normalization_ops
+      SubFeatureMap:   {}
+    binary_op:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+      FeatureName:     binary_op
+      SubFeatureMap:   {}
+    convolution_desc:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_train.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     convolution_desc
+      SubFeatureMap:   {}
+    convolution_forward:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     convolution_forward
+      SubFeatureMap:   {}
+    engine_ext:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_adv_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_backend.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     engine_ext
+      SubFeatureMap:   {}
+    lrn_desc:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     lrn_desc
+      SubFeatureMap:   {}
+    memory_desc_ext:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_adv_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     memory_desc_ext
+      SubFeatureMap:   {}
+    memory_format_tag:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     memory_format_tag
+      SubFeatureMap:   {}
+    pooling_desc:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     pooling_desc
+      SubFeatureMap:   {}
+    reduction_op:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+      FeatureName:     reduction_op
+      SubFeatureMap:   {}
+    rnn_bias_mode:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+      FeatureName:     rnn_bias_mode
+      SubFeatureMap:   {}
+    rnn_desc:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_adv_train.h'
+      FeatureName:     rnn_desc
+      SubFeatureMap:   {}
+    rnn_direction:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+      FeatureName:     rnn_direction
+      SubFeatureMap:   {}
+    rnn_memory_format_tag:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+      FeatureName:     rnn_memory_format_tag
+      SubFeatureMap:   {}
+    rnn_mode:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+      FeatureName:     rnn_mode
+      SubFeatureMap:   {}
+    softmax_algorithm:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     softmax_algorithm
+      SubFeatureMap:   {}
+    softmax_mode:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     softmax_mode
+      SubFeatureMap:   {}
+  lib_common_utils.hpp:
+    library_data_t:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_adv_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     library_data_t
+      SubFeatureMap:   {}
+    version_field:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+      FeatureName:     version_field
+      SubFeatureMap:   {}
+  memory.hpp:
+    dpct_memcpy:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    dpct_memcpy_2d:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    dpct_memcpy_3d:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    memcpy_direction:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     memcpy_direction
+      SubFeatureMap:   {}
+  util.hpp:
+    err_types:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_adv_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_backend.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     err_types
+      SubFeatureMap:   {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/home/u191761/convolution'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           ''
+    Specified:       false
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  CustomHelperFileName:
+    Value:           dpct
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitClNamespace:
+    Value:           'false'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...

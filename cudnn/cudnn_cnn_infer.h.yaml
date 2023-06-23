@@ -1,0 +1,1589 @@
+---
+MainSourceFile:  '/home/u191761/convolution/dpct_output/cudnn/cudnn_cnn_infer.h'
+Replacements:
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          2664
+    Length:          26
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          3542
+    Length:          25
+    ReplacementText: 'dnnl::algorithm'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          3578
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          3807
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          3866
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          3960
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4020
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4061
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4115
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4182
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4236
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4304
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4360
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4417
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4473
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4531
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4588
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4661
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4718
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4792
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          4850
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          5386
+    Length:          0
+    ReplacementText: "                                /*\n                                DPCT1082:28: Migration of cudnnConvolutionMode_t type is not supported.\n                                */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          5479
+    Length:          15
+    ReplacementText: 'dpct::library_data_t'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          5510
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          5574
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          6116
+    Length:          0
+    ReplacementText: "                                /*\n                                DPCT1082:29: Migration of cudnnConvolutionMode_t type is not supported.\n                                */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          6210
+    Length:          15
+    ReplacementText: 'dpct::library_data_t'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          6242
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          6300
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          6572
+    Length:          0
+    ReplacementText: "                                /*\n                                DPCT1082:30: Migration of cudnnConvolutionMode_t type is not supported.\n                                */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          6665
+    Length:          15
+    ReplacementText: 'dpct::library_data_t'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          6823
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          6887
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          7174
+    Length:          0
+    ReplacementText: "                                /*\n                                DPCT1082:31: Migration of cudnnConvolutionMode_t type is not supported.\n                                */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          7268
+    Length:          15
+    ReplacementText: 'dpct::library_data_t'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          7328
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          7398
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          7481
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          7566
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          7887
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          7957
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          8040
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          8125
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          8366
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          8436
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          8472
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          8537
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          8604
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          8682
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          8763
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          8847
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          9098
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          9161
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          9226
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          9300
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          9374
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          9456
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          9698
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          9763
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          9830
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          9960
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          10090
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          10174
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          10594
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          10632
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          10672
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          10748
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          10797
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          10867
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          10919
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          10973
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          11425
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          11491
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          11559
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          11636
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          11713
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          11798
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          11869
+    Length:          25
+    ReplacementText: 'dnnl::algorithm'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          12121
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          12171
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          12266
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          12366
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          12466
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          12529
+    Length:          25
+    ReplacementText: 'dnnl::algorithm'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          12727
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          12886
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          12950
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          13074
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          13202
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          13330
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          13407
+    Length:          25
+    ReplacementText: 'dnnl::algorithm'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          13663
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          13791
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          13925
+    Length:          27
+    ReplacementText: 'dpct::dnnl::activation_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          14013
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          14251
+    Length:          29
+    ReplacementText: 'dnnl::algorithm'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          14291
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          14473
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          14548
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          14584
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          14652
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          14722
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          14801
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          14881
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          14968
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          15230
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          15300
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          15372
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          15512
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          15654
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          15743
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          16199
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          16269
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          16341
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          16427
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          16511
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          16600
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          17059
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          17130
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          17203
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          17285
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          17368
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          17458
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          17535
+    Length:          29
+    ReplacementText: 'dnnl::algorithm'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          17639
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          17694
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          17799
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          17909
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          18021
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          18089
+    Length:          29
+    ReplacementText: 'dnnl::algorithm'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          18311
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          18449
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          18523
+    Length:          13
+    ReplacementText: 'dpct::dnnl::engine_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          18593
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          18677
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          18759
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          18846
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          18928
+    Length:          19
+    ReplacementText: 'dpct::dnnl::memory_format_tag'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          19007
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          19091
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          19173
+    Length:          28
+    ReplacementText: 'dpct::dnnl::convolution_desc'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          19260
+    Length:          23
+    ReplacementText: 'dpct::dnnl::memory_desc_ext'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Offset:          28956
+    Length:          13
+    ReplacementText: 'dpct::err1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+    Digest:          266ed8bc774f696e5ad82ee71e471da2
+DpctVersion:     2023.1.0
+MainHelperFileName: dpct
+USMLevel:        ''
+FeatureMap:
+  device.hpp:
+    device_ext:
+      IsCalled:        false
+      FeatureName:     ''
+      SubFeatureMap:
+        device_ext_default_queue:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/u191761/convolution/main.cu'
+          FeatureName:     'device_ext::default_queue'
+          SubFeatureMap:   {}
+    get_current_device:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     get_current_device
+      SubFeatureMap:   {}
+    get_default_queue:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     get_default_queue
+      SubFeatureMap:   {}
+    typedef_event_ptr:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     typedef_event_ptr
+      SubFeatureMap:   {}
+    typedef_queue_ptr:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+      FeatureName:     queue_ptr
+      SubFeatureMap:   {}
+  dnnl_utils.hpp:
+    activation_desc:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     activation_desc
+      SubFeatureMap:   {}
+    batch_normalization_mode:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     batch_normalization_mode
+      SubFeatureMap:   {}
+    batch_normalization_ops:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     batch_normalization_ops
+      SubFeatureMap:   {}
+    binary_op:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+      FeatureName:     binary_op
+      SubFeatureMap:   {}
+    convolution_desc:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_train.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     convolution_desc
+      SubFeatureMap:   {}
+    convolution_forward:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     convolution_forward
+      SubFeatureMap:   {}
+    engine_ext:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_adv_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_backend.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     engine_ext
+      SubFeatureMap:   {}
+    lrn_desc:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     lrn_desc
+      SubFeatureMap:   {}
+    memory_desc_ext:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_adv_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     memory_desc_ext
+      SubFeatureMap:   {}
+    memory_format_tag:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     memory_format_tag
+      SubFeatureMap:   {}
+    pooling_desc:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     pooling_desc
+      SubFeatureMap:   {}
+    reduction_op:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+      FeatureName:     reduction_op
+      SubFeatureMap:   {}
+    rnn_bias_mode:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+      FeatureName:     rnn_bias_mode
+      SubFeatureMap:   {}
+    rnn_desc:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_adv_train.h'
+      FeatureName:     rnn_desc
+      SubFeatureMap:   {}
+    rnn_direction:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+      FeatureName:     rnn_direction
+      SubFeatureMap:   {}
+    rnn_memory_format_tag:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+      FeatureName:     rnn_memory_format_tag
+      SubFeatureMap:   {}
+    rnn_mode:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+      FeatureName:     rnn_mode
+      SubFeatureMap:   {}
+    softmax_algorithm:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     softmax_algorithm
+      SubFeatureMap:   {}
+    softmax_mode:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+      FeatureName:     softmax_mode
+      SubFeatureMap:   {}
+  lib_common_utils.hpp:
+    library_data_t:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_adv_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     library_data_t
+      SubFeatureMap:   {}
+    version_field:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+      FeatureName:     version_field
+      SubFeatureMap:   {}
+  memory.hpp:
+    dpct_memcpy:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    dpct_memcpy_2d:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    dpct_memcpy_3d:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    memcpy_direction:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     memcpy_direction
+      SubFeatureMap:   {}
+  util.hpp:
+    err_types:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/u191761/convolution/cudnn/cudnn_adv_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_adv_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_backend.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_cnn_train.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_infer.h'
+        - '/home/u191761/convolution/cudnn/cudnn_ops_train.h'
+        - '/home/u191761/convolution/main.cu'
+      FeatureName:     err_types
+      SubFeatureMap:   {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/home/u191761/convolution'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           ''
+    Specified:       false
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  CustomHelperFileName:
+    Value:           dpct
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitClNamespace:
+    Value:           'false'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...
